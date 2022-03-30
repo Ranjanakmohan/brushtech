@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include brushtech *.css
+recursive-include brushtech *.csv
+recursive-include brushtech *.html
+recursive-include brushtech *.ico
+recursive-include brushtech *.js
+recursive-include brushtech *.json
+recursive-include brushtech *.md
+recursive-include brushtech *.png
+recursive-include brushtech *.py
+recursive-include brushtech *.svg
+recursive-include brushtech *.txt
+recursive-exclude brushtech *.pyc
